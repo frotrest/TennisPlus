@@ -1,0 +1,99 @@
+.aboutClub {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.aboutClubContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.aboutClubContentTitle {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.aboutClubContentWrapper {
+  display: grid;
+  grid-template-columns: 0.85fr 1.4fr;
+  align-items: start;
+  position: relative;
+}
+
+.aboutClubContentCardPhotoCol {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutClubContentPhoto {
+  width: 465px;
+  height: 465px;
+  top: 25px;
+  left: -20px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.aboutClubContentCard {
+  background-color: rgba(247, 236, 225, 1);
+  padding: 70px 65px 95px 145px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.aboutClubContentCardTitle {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  width: 650px;
+}
+
+.aboutClubContentCardText {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  width: 650px;
+}
+
+.stats {
+  display: flex;
+  gap: 35px;
+  margin-top: 10px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.statNumber {
+  color: rgba(141, 134, 201, 1);
+  font-family: 'Gilroy';
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.statText {
+  color: rgba(31, 31, 31, 1);
+  font-family: 'Gilroy';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 130%;
+  width: 155px;
+}

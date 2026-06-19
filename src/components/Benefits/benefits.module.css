@@ -1,0 +1,33 @@
+.benefits {
+  padding-top: 150px;
+}
+
+.benefitsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border: 2px solid rgb(240, 229, 229);
+  position: relative;
+}
+
+.benefitTitle {
+  position: absolute;
+  bottom: 60px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-style: Bold;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 295px;
+}

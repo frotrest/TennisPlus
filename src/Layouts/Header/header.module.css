@@ -1,0 +1,57 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px rgba(255, 255, 255, 0.432) solid;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navBarLink {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navBarLink:hover {
+  color: rgb(233, 235, 129);
+}
+
+.navBarLinkActive {
+  color: rgb(233, 235, 129);
+}
+
+.networks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.network {
+  color: white;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.network:hover {
+  color: rgb(233, 235, 129);
+}

@@ -1,0 +1,44 @@
+.favours {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.favoursContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+}
+
+.favoursContentTitle {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.favoursLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.favourLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  padding: 30px 15px;
+  background-color: rgba(141, 134, 201, 1);
+  width: 525px;
+  text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.about {
+  background: url('@assets/about.webp') no-repeat center / cover;
+  padding-top: 145px;
+  padding-bottom: 0px;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContentTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  margin-bottom: 32px;
+}

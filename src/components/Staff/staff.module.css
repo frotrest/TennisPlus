@@ -1,0 +1,85 @@
+.coaches {
+  padding-top: 150px;
+}
+
+.coachesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coachesTitle {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.coachesControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coachesArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(141, 134, 201, 1);
+  color: white;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.coachesArrow:hover:not(.swiper-button-disabled) {
+  background: rgba(120, 113, 184, 1);
+}
+
+.coachesArrow.swiper-button-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.coachCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.coachPhoto {
+  width: 255px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.coachName {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.coachText {
+  color: rgba(51, 51, 51, 1);
+  font-family: 'Gilroy';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 195px;
+}

@@ -1,0 +1,9 @@
+.pageLoader {
+  color: white;
+  font-family: 'Gilroy';
+  font-size: 52px;
+  padding-top: 369px;
+  padding-bottom: 369px;
+  background: url('@assets/home.webp') no-repeat center / cover;
+  text-align: center;
+}
