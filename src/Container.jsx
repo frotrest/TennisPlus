@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Container = ({ children, className, dataAnimate }) => {
+const Container = ({ children, className }) => {
   return (
     <div
-      className={className ? `container ${className}` : `container`}
-      data-animate={dataAnimate}
-    >
+      className={className ? `container ${className}` : `container`}>
       {children}
     </div>
   );
