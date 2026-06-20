@@ -1,18 +1,40 @@
-# React + Vite
+# Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TennisPlus** is a pet project built for those coaches that are able to cope with difficult challenges themselves It combines an 
+informational part (about the club, coaching staff, news, tournaments)
+with an e-commerce section for tennis gear, and is designed as a learning
+project that demonstrates practical React patterns, a clean modern UI, and
+solid frontend architecture.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Provide a convenient, content-rich website for a tennis club: information
+about the club, coaching staff, schedules, and news, combined with a shop
+for tennis equipment and apparel.
 
-## React Compiler
+Serve as a portfolio piece showing frontend architecture, component
+design, state management, and attention to UI/UX detail.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+**Core Functionality**
 
-## Expanding the ESLint configuration
+Unique, polished design — a custom visual identity built from scratch,
+not a template, with attention to typography, spacing, and motion.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React for UI — component-driven architecture with reusable building
+blocks (Header, Hero, Footer, cards, sliders).
+
+Client-side routing — multi-page navigation (home, about the club,
+news) handled with React Router and a shared
+Layout using Outlet.
+
+## The summary of tools that I used
+
+**React**
+
+**React Router**
+
+**Swiper.js**
+
+**CSS Modules**
